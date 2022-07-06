@@ -1,0 +1,20 @@
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #1acc8d;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #2be4a2;
+}
+
+.row {
+  margin-bottom: 1.5rem;
+}
+
+.modelos {
+  box-shadow: 1px 2px 11px 3px #a6a6a6;
+}
+

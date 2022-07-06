@@ -1,0 +1,56 @@
+.btn-primary {
+  color: #fff;
+  background-color: #2be4a2;
+  border-color: #2be4a2;
+  padding: 8px 25px;
+  border-radius: 25px;
+  width: 120px;
+}
+
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none!important;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: #1acc8d;
+  border-color: #1acc8d;
+  box-shadow: none!important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1acc8d;
+  border-color: #1acc8d;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #1acc8d;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #2be4a2;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid rgb(26 204 141 / 25%);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: rgb(26 204 141 / 25%) rgb(26 204 141 / 25%) #fff;
+}
+
+.row {
+  margin-bottom: 1.5rem;
+}
+
+.modelos {
+  box-shadow: 1px 2px 11px 3px #a6a6a6;
+}
+
