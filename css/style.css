@@ -1981,3 +1981,10 @@ section {
 span {
   color: #1acc8d;
 }
+
+/* Imagens de Modelos */
+
+.img-modelos {
+  width: 100%;
+  height: 100$;
+}
