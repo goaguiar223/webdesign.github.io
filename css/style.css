@@ -1990,8 +1990,10 @@ span {
 }
 
 .col-md-12 {
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: calc(var(--bs-gutter-x) * 0.3) !important;
+  padding-bottom: calc(var(--bs-gutter-x) * 0.3) !important;
+  padding-right: calc(var(--bs-gutter-x) * 0.3) !important;
+  padding-left: calc(var(--bs-gutter-x) * 0.3) !important;
 }
 
 .row-modelos {
