@@ -1997,11 +1997,11 @@ span {
 }
 
 .row-modelos {
-  margin: 0px;
-  padding: 0px;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
 .model {
   box-shadow: 1px 1px 5px -2px;
-  padding: 5px;
+  padding: 5px !important;
 }
